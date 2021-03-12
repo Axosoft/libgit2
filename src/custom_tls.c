@@ -106,7 +106,7 @@ int git_custom_tls__init(git_custom_tls *tls)
   return 0;
 }
 
-#elif
+#else
 
 int git_custom_tls__global_init(void)
 {
